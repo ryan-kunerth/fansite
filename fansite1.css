@@ -1,0 +1,154 @@
+body{ 
+    background-image: url(monster.png);
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    background-position: center;
+    margin-top: 200px;
+    border: 2px solid;  
+    background-color: rgb(164, 42, 42);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+    width: auto;
+    margin: 0;
+    overflow-x: hidden;
+}   
+audio{
+    box-shadow: 10px 5px 5px red;
+}
+    
+body {
+    background-color: #02021f;
+    font-family: "Exo 2";
+}
+nav {
+    background-color: #cb1717;
+    padding: 20px;
+    display: flex;
+    font-family: "Exo 2";
+ }
+nav a {
+    color:#02021f;
+}
+nav a:hover {
+    opacity: 0.6;
+}
+
+.navmenu{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.navbar {
+    opacity: 0.6;
+    margin-left: auto;    
+}
+.centrer {
+    display: flex;
+    padding-bottom: 10%;
+    justify-content: center;
+}
+p{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+video {
+    box-shadow: 10px 3px 3px red;
+    margin-left: 1000px;
+}   
+
+audio{
+    display:block;
+    width: 300px; 
+    margin: 0;
+}
+   
+input{
+    font-size: 10px;
+    background-color: #37377a;
+    border-radius: 10px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    margin-left: 10px;
+}
+.demogorgon img{
+    display: block;
+    margin: bottom 1px;
+    margin-left: 1px;
+    padding-left: 400px;
+    filter: drop-shadow(0 0 0.75rem crimson)
+}
+.demogorgon{
+    width: auto;
+}
+div p{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+div a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow:1px 1px 2px rgb(186, 24, 24), 0 0 1em rgb(255, 81, 0), 0 0 0.2em rgb(255, 98, 0);
+    padding-left: 20px;
+}
+.histoire div{
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+.synopsis{
+    font-size: 30px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+}
+header img{
+    filter: drop-shadow(0 0 2.00rem white)
+}
+div h2{
+    font-size: 30px;
+    text-decoration: underline;
+    text-shadow:1px 1px 2px red, 0 0 1em red, 0 0 0.2em red;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+  } 
+
+div p{
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+h3{
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    text-shadow:1px 1px 2px red, 0 0 1em red, 0 0 0.2em red;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+div .monster{
+    filter: drop-shadow(0 0 0.75rem cri);
+}
+h3{
+    margin-top: 50px;
+}
+video{
+    margin-left: 1px;    
+}
+div .bande p{
+    font-size: 500px;
+}
